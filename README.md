@@ -1,16 +1,53 @@
-# React + Vite
+## 📝 To-Do List Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **To-Do List web application** built with **React and Vite**, focused on organizing personal, academic, and professional activities in a simple and efficient way.
 
-Currently, two official plugins are available:
+The application allows users to **create, view, search, filter, sort, complete, and delete tasks**, as well as categorize them by context (such as Work, Study, and Personal), providing a clean and intuitive user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### ✨ Features
 
-## React Compiler
+* Create new tasks with title and category
+* Dynamic task listing
+* Filter tasks by status (all, completed, or pending)
+* Search tasks by text
+* Sort tasks alphabetically (A–Z and Z–A)
+* Mark tasks as completed
+* Delete tasks
+* Responsive and user-friendly interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🎯 Project Purpose
 
-## Expanding the ESLint configuration
+The main goal of this project is to **practice and consolidate front-end development skills using React**, including components, state, props, event handling, conditional rendering, and list manipulation. It also demonstrates the use of **Vite as a modern development and build tool**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project is part of a **front-end portfolio**, showcasing the ability to turn a UI layout into a functional, maintainable, and scalable web application.
+
+### 🛠️ Technologies Used
+
+* React
+* Vite
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+
+### 🌐 Live Demo
+
+The application is deployed using **GitHub Pages** and can be accessed at:
+
+> [https://sabrinacostaa.github.io/ToDoListReactVite/](https://sabrinacostaa.github.io/ToDoListReactVite/)
+
+### 🚀 Running the Project Locally
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+The application will be available at `http://localhost:5173` by default.
+
+### 📌 Notes
+
+This project can be extended in the future with features such as persistent storage (LocalStorage or database), user authentication, or integration with external APIs.
+
